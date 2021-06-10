@@ -4,14 +4,9 @@
 
 ### help
 
-#内部命令
-help ls
-#外部命令
-ls --help
 
 ### man
 
-man ls
 
 ## 磁盘管理
 
@@ -150,5 +145,3 @@ man ls
 ## 定时任务
 
 ### crontab
-
-*XMind: ZEN - Trial Version*
