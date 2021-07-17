@@ -110,12 +110,12 @@ site_meta:
 # For local development only!
 gitalk:
   enable: true
-  autoExpand: true
-  clientID: ''
-  clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
+  autoExpand: false
+  clientID: 'c2fb266154a8b8dd8bc6'
+  clientSecret: '4c30474ac13d5c860cc4c0e6f09ae9e5434f0998'
+  repo: 'https://github.com/ThinkBIM/doc_help'
+  owner: 'ThinkBIM'
+  admin: ['ThinkBIM']
   id: uid
   language: en
   distractionFreeMode: true
@@ -160,8 +160,8 @@ copy_protection:
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 aurora_bot:
-  enable: false
-  locale: en
+  enable: true
+  locale: cn
   bot_type: dia
   tips:
 
