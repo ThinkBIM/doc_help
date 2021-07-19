@@ -11,8 +11,8 @@
 site:
   subtitle: ThinkBIM
   author: ThinkBIM
-  nick: Auroral UI
-  description: ''
+  nick: comic
+  description: '程序员爱看动漫'
   link: '/'
   language: cn
   multi_language: true
@@ -36,9 +36,9 @@ authors:
   #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
   #   link: https://github.com/TriDiamond
   #   description: 'Think like an artist, code like an artisan.'
-     socials:
-       github: 'https://tridiamond.tech'
-       weibo: 'https://weibo.com/u/7318914058'
+#     socials:
+#       github: 'https://tridiamond.tech'
+#       weibo: 'https://weibo.com/u/7318914058'
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -55,6 +55,12 @@ menu:
       cn: '留言板'
       en: 'Message Board'
     path: '/page/message-board'
+  GoLang:
+    name: 'GoLang'
+    i18n:
+      cn: 'GoLang'
+      en: 'GoLang'
+    path: '/page/GoLang'
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -70,10 +76,13 @@ theme:
     color_3: '#ff0099'
 
 #! ---------------------------------------------------------------
-#! Social Configs
+#! 社交配置 Configs
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/ThinkBIM'
+  weibo: 'https://weibo.com/thinkbim'
+  zhihu: 'https://www.zhihu.com/people/thinkbim'
   customs:
   ##! Example:
   ##! --- Using SVG
@@ -106,16 +115,16 @@ site_meta:
 #! Plugins
 #! @docs https://aurora.tridiamond.tech/guide/plugins.html
 #! ---------------------------------------------------------------
-
+#! https://github.com/ThinkBIM/doc_help
 # For local development only!
 gitalk:
   enable: true
   autoExpand: false
   clientID: 'c2fb266154a8b8dd8bc6'
   clientSecret: '4c30474ac13d5c860cc4c0e6f09ae9e5434f0998'
-  repo: 'https://github.com/ThinkBIM/doc_help'
+  repo: 'doc_help'
   owner: 'ThinkBIM'
-  admin: ['ThinkBIM']
+  admin: 'ThinkBIM'
   id: uid
   language: en
   distractionFreeMode: true
@@ -156,11 +165,12 @@ copy_protection:
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
 
 #! ---------------------------------------------------------------
+#! 机器人配置
 #! Enable Aurora Bot Dia
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 aurora_bot:
-  enable: true
+  enable: false
   locale: cn
   bot_type: dia
   tips:
