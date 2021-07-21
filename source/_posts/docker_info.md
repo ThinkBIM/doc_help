@@ -106,6 +106,7 @@ docker version [OPTIONS]
 
 ### 使用实例
 
+
 ```shell
 docker version
 Client: Docker Engine - Community
@@ -138,6 +139,55 @@ Server: Docker Engine - Community
   GitCommit:        fec3683
 
 ```
+
+
+
+## FAQ
+
+:::danger Docker:Error response from daemon
+Error response from daemon: Get https://registry-1.docker.io/v2/: read tcp 172.17.29.69:44568->52.55.168.20:443: read: connection reset by peer
+:::
+
+:::details Error response from daemon
+
+- 通过dig @114.114.114.114 registry-1.docker.io找到可用IP
+```shell
+dig @114.114.114.114 registry-1.docker.io
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.5 <<>> @114.114.114.114 registry-1.docker.io
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47457
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;registry-1.docker.io.          IN      A
+
+;; ANSWER SECTION:
+registry-1.docker.io.   33      IN      A       35.169.249.115
+registry-1.docker.io.   33      IN      A       18.214.230.110
+registry-1.docker.io.   33      IN      A       34.238.187.50
+registry-1.docker.io.   33      IN      A       52.72.232.213
+registry-1.docker.io.   33      IN      A       34.197.211.151
+registry-1.docker.io.   33      IN      A       52.55.168.20
+registry-1.docker.io.   33      IN      A       54.152.28.6
+registry-1.docker.io.   33      IN      A       34.231.251.252
+
+;; Query time: 10 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Wed Jul 21 11:44:46 CST 2021
+;; MSG SIZE  rcvd: 177
+```
+
+- 修改/etc/hosts
+```shell
+echo "35.169.249.115 registry-1.docker.io" >> /etc/hosts
+```
+
+:::
+
 
 
 
