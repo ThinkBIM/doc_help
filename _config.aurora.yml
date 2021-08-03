@@ -120,7 +120,7 @@ site_meta:
 #! https://github.com/ThinkBIM/doc_help
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: false
   clientID: 'c2fb266154a8b8dd8bc6'
   clientSecret: '4c30474ac13d5c860cc4c0e6f09ae9e5434f0998'
@@ -134,17 +134,17 @@ gitalk:
   proxy: ''
 
 valine:
-  enable: false
-  app_id:
-  app_key:
-  avatar: ''
-  placeholder: Leave your thoughts behind~
+  enable: true
+  app_id: BYQCRoAtuN9X0PlJv3uylQQu-gzGzoHsz
+  app_key: hhoyOMqi5jbUQIxIL5F392jf
+  avatar: identicon
+  placeholder: 发一条友善的评论
   visitor: true
-  lang: en
+  lang: zh-CN
   avatarForce: false
   meta: ['nick', 'mail']
-  requiredFields: []
-  admin: 'TriDiamond'
+  requiredFields: ['nick', 'mail']
+  admin: 'thinkbim'
   recentComment: true
 
 #! ---------------------------------------------------------------
@@ -160,7 +160,7 @@ busuanzi:
 #! Copy
 #! ---------------------------------------------------------------
 copy_protection:
-  enable: true
+  enable: false
 #  author:
 #    cn: 作者
 #    en: Author

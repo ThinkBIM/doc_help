@@ -142,7 +142,7 @@ Server: Docker Engine - Community
 
 
 
-## FAQ
+# FAQ
 
 :::danger Docker:Error response from daemon
 Error response from daemon: Get https://registry-1.docker.io/v2/: read tcp 172.17.29.69:44568->52.55.168.20:443: read: connection reset by peer
