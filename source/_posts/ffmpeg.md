@@ -5,6 +5,7 @@ tags:
  - ffmpeg
 categories:
  - PHP
+cover: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/comic/pic_1.jpg
 ---
 
 # 使用 PHP-FFMpeg 操作视频/音频文件

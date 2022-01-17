@@ -4,6 +4,7 @@ date: 2021-07-22 09:47:36
 tags:
 categories:
  - MySQL
+cover: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/comic/pic_1.jpg
 ---
 
 # LEFT JOIN  查询结果不是左表的全部数据的解决方法

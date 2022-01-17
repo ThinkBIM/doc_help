@@ -18,7 +18,7 @@ site:
   logo: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/logo.png
   avatar: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/logo.png
   beian:
-    number: '京ICP备16068492号-2'
+    number: '京ICP备16068492号'
     link: 'https://beian.miit.gov.cn/'
 #!公安备案信息
 #  police_beian:
