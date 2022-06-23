@@ -62,3 +62,9 @@ date: 2021-07-19 18:49:36
 
 - 《声之形》
 
+
+### 观看地址
+
+- [AGE动漫](https://www.agefans.vip/)
+- [樱花动漫](http://www.yinghuacd.com/)
+- [排行榜](https://www.agefans.vip/rank)
