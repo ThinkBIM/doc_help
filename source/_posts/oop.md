@@ -1,10 +1,8 @@
 ---
 title: 深入设计模式
 date: 2021-07-19 18:49:36
-tags:
- - CMD
 categories:
- - Git
+ - OOP
 cover: https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/comic/pic_1.jpg
 feature: true
 ---
@@ -38,14 +36,19 @@ class Cat
     private $weight;
     private $color;
 
+    //呼吸
     public function breathe(){}
     
+    //进食
     public function eat($food){}
     
+    //奔跑
     public function run($destination){}
     
+    //睡觉
     public function sleep($hours){}
     
+    //喵喵叫
     public function menw(){}
 }
 ```
@@ -112,7 +115,7 @@ class Cat
 
 
 
-<img src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/oop/image-031.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@main/oop/image-031.png" style="zoom:50%;"  alt=""/>
 
 • 依赖：对类 B 进行修改会影响到类 A 。 
 

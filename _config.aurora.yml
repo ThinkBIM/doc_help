@@ -109,7 +109,7 @@ site_meta:
   cdn: cn
   favicon: 'https://cdn.jsdelivr.net/gh/ThinkBIM/CDN@V1.0/favicon.ico'
   description: '爱看动漫的技术菜鸟'
-  keywords: 'PHP 动漫 技术'
+  keywords: 'PHP 动漫 thinkbim'
   author: 'ThinkBIM'
 
 #! ---------------------------------------------------------------
